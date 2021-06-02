@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <title>D1</title>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="anatomia" src="./D1.gltf"></a-asset-item>
+          </a-assets>
+          <a-gltf-model src="#anatomia"position="0.542 -3.506 -0.796"scale="1 1 1"></a-gltf-model>
+          <a-entity camera look-controls wasd-controls="acceleration:100" position="206.361 5.387 0.604" rotation="-0.824 89.870 -0.012"></a-entity>
+          <a-sound src="src: url(./Dusan_mezcla.mp3)" autoplay="true" loop="true" position="0 2 5"></a-sound>
+          <a-video width="16" height="9" position="-0.762 -1.588 0.109" rotation="-88.399 -121.489 -147.419"src="Prueba 11.mp4"></a-video>
+          <a-sky src="./cielo2.mp4"></a-sky>
+</body>
+</html>
